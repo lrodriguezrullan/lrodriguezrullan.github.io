@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a software engineer at [Tempus Nova LLC](http://tempusnova.com), a Google Cloud Premier Partner based in Denver, Colorado. I develop enterprise applications for our clients using the Google Cloud Platform, Java, and Angular. I have worked in the software development and system administration fields since 1989. I live outside Denver, Colorado, with my wife and two children. 
+I am a software engineer based in Denver, Colorado. I develop enterprise applications using the Google Cloud Platform, Java, and Angular. I manage the Application Development Team at [Tempus Nova LLC](http://tempusnova.com), a Google Cloud Premier Partner. I have worked in the software development and system administration fields since 1989. I live outside Denver, Colorado, with my wife and two children. 
 
 ## Experience
 I got my first software development job during my sophomore year in college. I worked part time at [Spectron](http://www.spectron-msim.com), an oil analysis laboratory, maintaining their [Mechanical Systems Integrity Management (MSIM)](https://www.tandfonline.com/doi/abs/10.1080/09208119408964780) software using [Rocky Mountain BASIC on HP 9000 Series 200/300 computers](http://hpmemoryproject.org/technics/bench/3048/config_soft_01.htm).
