@@ -21,7 +21,8 @@ url: "https://lrodriguezrullan.github.io" # the base hostname & protocol for you
 twitter_username: rodriguezrullan
 github_username:  lrodriguezrullan
 linkedin_username: lrodriguezrullan
-
+description: >- # this means to ignore newlines until "baseurl:"
+   I am a software engineer based in Denver, Colorado. I develop enterprise applications using the Google Cloud Platform, Java, and Angular.
 show_excerpts: false
 
 # Build settings
