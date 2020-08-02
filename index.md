@@ -6,8 +6,13 @@ layout: home
 title: Home
 ---
 <style type="text/css">
-  .img-circle {
+  .photo {
     border-radius: 50%;
+    float: right;
+    filter: grayscale(100%);
+  }
+  .photo:hover {
+    filter: grayscale(0);
   }
 </style>
-Welcome to my personal homepage! ![image]({{ site.baseurl }}/assets/img/my_photo_sq.jpg){: .img-circle}
+Welcome to my personal homepage! ![image]({{ site.baseurl }}/assets/img/my_photo_sq.jpg){: .photo}
