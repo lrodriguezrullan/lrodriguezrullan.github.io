@@ -5,4 +5,9 @@
 layout: home
 title: Home
 ---
+<style type="text/css">
+  img img-circle {
+    border-radius: 50%;
+  }
+</style>
 Welcome to my personal homepage! ![image]({{ site.baseurl }}/assets/img/my_photo_sq.jpg){: .img-circle}
