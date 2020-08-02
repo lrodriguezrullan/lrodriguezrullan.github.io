@@ -6,7 +6,7 @@ layout: home
 title: Home
 ---
 <style type="text/css">
-  img img-circle {
+  img .img-circle {
     border-radius: 50%;
   }
 </style>
