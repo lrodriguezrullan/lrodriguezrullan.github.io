@@ -5,4 +5,4 @@
 layout: home
 title: Welcome
 ---
-Welcome to my personal homepage!
+Welcome to my personal homepage! ![image]({{ site.baseurl }}/assets/img/my_photo_sq.jpg){: .img-circle}
