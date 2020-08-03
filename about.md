@@ -30,8 +30,8 @@ In reverse chronological order:
 
 ## Education
 
-* Bachelor Degree in Computer Science from the [University of Puerto Rico, Bayamón Campus](https://www.uprb.edu)
-* Juris Doctor from the [University of Puerto Rico, School of Law](http://derecho.uprrp.edu). In law school I focused on topics related to entrepreneurship, participating in the Cyber Law Section of the Legal Aid Clinic and taking courses in Digital Music, Technology Law, and Partnerships and Corporations Law. 
+* Bachelor Degree in Computer Science from the [University of Puerto Rico, Bayamón Campus](https://www.uprb.edu).
+* Juris Doctor from the [University of Puerto Rico, School of Law](http://derecho.uprrp.edu). I focused on topics related to entrepreneurship, participating in the Cyber Law Section of the Legal Aid Clinic and taking courses in Digital Music, Technology Law, and Partnerships and Corporations Law. 
 * Additional 25 undergraduate and 9 graduate credits in Applied Mathematics and Data Structures at the [University of Puerto Rico, College of Natural Sciences](https://math.uprrp.edu).
 
 ## Certifications
