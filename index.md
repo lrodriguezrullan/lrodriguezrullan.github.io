@@ -10,7 +10,7 @@ title: Home
     border-radius: 50%;
     float: right;
     filter: grayscale(100%);
-    margin-left: 40px; 
+    margin-left: 30px; 
     margin-top: 0
   }
   .photo:hover {
