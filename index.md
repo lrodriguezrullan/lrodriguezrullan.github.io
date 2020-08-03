@@ -15,4 +15,6 @@ title: Home
     filter: grayscale(0);
   }
 </style>
-![image]({{ site.baseurl }}/assets/img/my_photo_sq.jpg){: .photo} Welcome to my personal homepage! 
+![image]({{ site.baseurl }}/assets/img/my_photo_sq.jpg){: .photo} 
+Welcome to my personal homepage! 
+<p>&nbsp;</p>
