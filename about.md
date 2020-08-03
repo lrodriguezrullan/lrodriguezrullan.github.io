@@ -29,7 +29,13 @@ In reverse chronological order:
 |---------|----------|-------|--------------|-------|
 
 ## Education
-I hold a Bachelor Degree in Computer Science from the [University of Puerto Rico, Bayamón Campus](https://www.uprb.edu) and a Juris Doctor from the [University of Puerto Rico, School of Law](http://derecho.uprrp.edu). In law school I focused on topics related to entrepreneurship, participating in the Cyber Law Section of the Legal Aid Clinic and taking courses in Digital Music, Technology Law, and Partnerships and Corporations Law. I also took an additional 25 undergraduate and 9 graduate credits in Applied Mathematics and Data Structures at the [University of Puerto Rico, College of Natural Sciences](https://math.uprrp.edu).
+
+* Bachelor Degree in Computer Science from the [University of Puerto Rico, Bayamón Campus](https://www.uprb.edu)
+* Juris Doctor from the [University of Puerto Rico, School of Law](http://derecho.uprrp.edu). In law school I focused on topics related to entrepreneurship, participating in the Cyber Law Section of the Legal Aid Clinic and taking courses in Digital Music, Technology Law, and Partnerships and Corporations Law. 
+* Additional 25 undergraduate and 9 graduate credits in Applied Mathematics and Data Structures at the [University of Puerto Rico, College of Natural Sciences](https://math.uprrp.edu).
 
 ## Certifications
-I hold the following certifications: Google Certified Professional - Cloud Architect, IBM Certified Application Developer – Lotus Notes and Domino 6/6.5, and IBM Certified Lotus Professional Domino R5 Application Developer.
+
+* Google Certified Professional - Cloud Architect
+* IBM Certified Application Developer – Lotus Notes and Domino 6/6.5
+* IBM Certified Lotus Professional Domino R5 Application Developer
