@@ -10,13 +10,13 @@ I am the Application Development Manager at [Tempus Nova LLC](http://tempusnova.
 
 | Company | Industry | Title | Time | Technologies |
 |---------|----------|-------|--------------|-------|
-| Tempus Nova, LLC | Consulting (Google) | Senior Software Engineer / Application Development Manager | ~8 years | Lotus Notes, Java, Angular, as well as Python and Go. |
+| Tempus Nova, LLC | Consulting (Google) | Senior Software Engineer / Application Development Manager | 7+ years | Lotus Notes, Java, Angular, as well as Python and Go. |
 |---------|----------|-------|--------------|-------|
-| Independent Contractor / Line of Sight, Inc. | Consulting (Telephony) | 5 years | Lotus Domino, Java, JDBC, Oracle PL/SQL, Spring, Hibernate, and jQuery. |
+| Independent Contractor / Line of Sight, Inc. | Consulting (Telephony) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, Oracle PL/SQL, Spring, Hibernate, and jQuery. |
 |---------|----------|-------|--------------|-------|
 | Softek, Inc. | Consulting (Telephony and State Government) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, and Oracle PL/SQL. | 
 |---------|----------|-------|--------------|-------|
-| T-30 | IT Consulting | Owner | 1 year | Web Development | 
+| T-30 | IT Consulting | Principal | 1 year | Web Development | 
 |---------|----------|-------|--------------|-------|
 | Office of Management and Budget of the Government of Puerto Rico | State Government | Programming and Communication Systems Consultant / Information Systems Operations Manager | 3.5 years | Lotus Domino, Network Security, Wide-Area Networks |
 |---------|----------|-------|--------------|-------|
