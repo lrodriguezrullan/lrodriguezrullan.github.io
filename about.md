@@ -13,7 +13,9 @@ In reverse chronological order:
 
 | Organization | Industry | Title | Time | Technologies |
 |---------|----------|-------|--------------|-------|
-| [Tempus Nova, LLC](https://tempusnova.com) | Consulting (Google) | Senior Software Engineer / Application Development Manager | 7+ years | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino |
+| [Tempus Nova, LLC](https://tempusnova.com) | Consulting | Application Development Manager | 7 months | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino |
+|---------|----------|-------|--------------|-------|
+| [Tempus Nova, LLC](https://tempusnova.com) | Consulting | Senior Software Engineer | 6 years | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino |
 |---------|----------|-------|--------------|-------|
 | Independent Contractor / Line of Sight, Inc. | Consulting (Telephony) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, Oracle PL/SQL, Spring, Hibernate, and jQuery |
 |---------|----------|-------|--------------|-------|
