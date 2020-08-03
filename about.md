@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-<style type="text/css"> .photo { border-radius: 50%; float: right; filter: grayscale(100%); } .photo:hover { filter: grayscale(0); } </style>
+<style type="text/css"> .photo { border-radius: 50%; float: right; filter: grayscale(100%); margin: 40px; margin-top: 0} .photo:hover { filter: grayscale(0); } </style>
 ![image]({{ site.baseurl }}/assets/img/my_photo_sq.jpg){: .photo}
 I am the Application Development Manager at [Tempus Nova LLC](http://tempusnova.com), a Google Cloud Premier Partner based in Denver, Colorado. I develop enterprise applications using the Google Cloud Platform, Java, and Angular. I have worked in the software development and system administration fields since 1989. I live outside Denver, Colorado, with my wife and two children. 
 
