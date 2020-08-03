@@ -10,7 +10,7 @@ I am the Application Development Manager at [Tempus Nova LLC](http://tempusnova.
 
 In reverse chronological order:
 
-| Company | Industry | Title | Time | Technologies |
+| Organization | Industry | Title | Time | Technologies |
 |---------|----------|-------|--------------|-------|
 | [Tempus Nova, LLC](https://tempusnova.com) | Consulting (Google) | Senior Software Engineer / Application Development Manager | 7+ years | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino |
 |---------|----------|-------|--------------|-------|
