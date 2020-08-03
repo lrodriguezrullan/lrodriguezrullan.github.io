@@ -10,7 +10,7 @@ I am the Application Development Manager at [Tempus Nova LLC](http://tempusnova.
 
 | Company | Industry | Title | Time | Technologies |
 |---------|----------|-------|--------------|-------|
-| [Tempus Nova, LLC](https://tempusnova.com) | Consulting (Google) | Senior Software Engineer / Application Development Manager | 7+ years | Lotus Notes, Java, Angular, as well as Python and Go. |
+| [Tempus Nova, LLC](https://tempusnova.com) | Consulting (Google) | Senior Software Engineer / Application Development Manager | 7+ years | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino. |
 |---------|----------|-------|--------------|-------|
 | Independent Contractor / Line of Sight, Inc. | Consulting (Telephony) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, Oracle PL/SQL, Spring, Hibernate, and jQuery. |
 |---------|----------|-------|--------------|-------|
