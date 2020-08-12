@@ -17,7 +17,7 @@ In order to build the WiFi modem, you will need the following components:
 
 * [A Raspberry Pi Zero W single board computer](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 
-  Make sure you get the Zero W model and not the Zero model. The Zero W model comes with added WiFi support, that we will need. If you are like me and are not very comfortable with a soldering iron, you can opt for the [https://www.raspberrypi.org/blog/zero-wh/](Raspberry Pi Zero WH model). This one comes with a pre-soldered GPIO header and costs about $4 more. 
+  Make sure you get the Zero W model and not the Zero model. The Zero W model comes with added WiFi support, that we will need. If you are like me and are not very comfortable with a soldering iron, you can opt for the [Raspberry Pi Zero WH model](https://www.raspberrypi.org/blog/zero-wh/). This one comes with a pre-soldered GPIO header and costs about $4 more. 
 
 * A MicroSD card with a capacity of at least 8 GB
 
