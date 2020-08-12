@@ -57,7 +57,7 @@ In order to build the WiFi modem, you will need the following components:
 
 1. Follow [these instructions](https://www.raspberrypi.org/documentation/installation/installing-images/) to install the Raspberry Pi OS operating system on your MicroSD card using the Raspberry Pi Imager.
 
-  There are different versions of Raspberry Pi OS that you can install. I installed Raspberry Pi OS Lite (32-bit) because I do not expect to use the desktop environment.
+     There are different versions of Raspberry Pi OS that you can install. I installed Raspberry Pi OS Lite (32-bit) because I do not expect to use the desktop environment.
 
      **Do not install the MicroSD card on your Pi Zero W until you have completed the following three steps.**
 
