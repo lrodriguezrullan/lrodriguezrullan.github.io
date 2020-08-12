@@ -75,12 +75,12 @@ In order to build the WiFi modem, you will need the following components:
 
 7. Connect to the Pi Zero W using SSH. 
 
-  These are the instructions for [MacOS or Linux](https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md) and for [Windows 10](https://www.raspberrypi.org/documentation/remote-access/ssh/windows10.md).
+    These are the instructions for [MacOS or Linux](https://www.raspberrypi.org/documentation/remote-access/ssh/unix.md) and for [Windows 10](https://www.raspberrypi.org/documentation/remote-access/ssh/windows10.md).
 
-  Raspberry Pi OS supports Multicast DNS out-of-the-box. The host name of the Pi Zero W on your network should be raspberrypi.local. 
+    Raspberry Pi OS supports Multicast DNS out-of-the-box. The host name of the Pi Zero W on your network should be raspberrypi.local. 
 
-  The default login is: pi
-  The default password is: raspberry 
+    The default login is: pi
+    The default password is: raspberry 
 
 8. Immediately after logging into the Pi Zero W, change the password of the pi user using the following command:
 >
