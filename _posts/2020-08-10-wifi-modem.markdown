@@ -59,13 +59,13 @@ In order to build the WiFi modem, you will need the following components:
 
   There are different versions of Raspberry Pi OS that you can install. I installed Raspberry Pi OS Lite (32-bit) because I do not expect to use the desktop environment.
 
-   **Do not install the MicroSD card on your Pi Zero W until you have completed the following three steps.**
+     **Do not install the MicroSD card on your Pi Zero W until you have completed the following three steps.**
 
 2. Remove the MicroSD card from your computer and reinstall it, so that it is recognized by your computer.
 
 3. Follow [these instructions](https://www.raspberrypi.org/documentation/configuration/wireless/headless.md) to configure your Pi Zero W to connect to your wireless network.
 
-  **The Pi Zero W does not support the 5 GHz band. You must use the 2.4 GHz band.**
+    **The Pi Zero W does not support the 5 GHz band. You must use the 2.4 GHz band.**
 
 4. Enable SSH on your Pi Zero W by creating a new empty file named ssh, without any extension, in the root directory of the MicroSD card. This will allow you to connect securely to the Pi Zero W from another computer on your network.
 
