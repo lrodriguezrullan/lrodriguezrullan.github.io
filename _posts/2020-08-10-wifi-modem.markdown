@@ -5,7 +5,7 @@ date:   2020-08-11 19:00:00 -0600
 categories: raspberry-pi atari-st retrocomputing 
 ---
 
-![Atari 1040 ST terminal](/assets/img/atari_st_terminal.jpeg)
+![Atari 1040 ST terminal](/assets/img/atari_st_xmodem.jpeg)
 
 ## Introduction
 
