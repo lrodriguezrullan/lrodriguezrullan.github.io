@@ -83,15 +83,15 @@ In order to build the WiFi modem, you will need the following components:
     The default password is: raspberry 
 
 8. Immediately after logging into the Pi Zero W, change the password of the pi user using the following command:
->
+
 > passwd
 
 9. On the command line, type the following:
->
+
 >sudo nano /boot/config.txt
 
 10. Use the cursor keys to go to the end of the document and add the following line:
->
+
 > enable_uart=1
 
 11. Save the file by pressing Control-O and pressing enter.
@@ -102,13 +102,13 @@ In order to build the WiFi modem, you will need the following components:
 
 14. Solder the 2x20-pin Strip Dual Male Header on the top of the Pi Zero W.
 
-  [This video from DroneBot Workshop](https://www.youtube.com/watch?v=jYKzsLmMV6o) shows how to solder the GPIO header on the Pi Zero W. Again, if you are not comfortable with the soldering iron, you can but a Pi Zero WH.
+    [This video from DroneBot Workshop](https://www.youtube.com/watch?v=jYKzsLmMV6o) shows how to solder the GPIO header on the Pi Zero W. Again, if you are not comfortable with the soldering iron, you can but a Pi Zero WH.
 
 15. Break away a four-pin strip of breakaway headers and solder it on top of the VCC, TX, RX, and GND holes in the RS232 to TTL Converter. The TX hole is the one with an arrow pointing away from the converter and the RX hole is the one with the arrow pointing into the converter. Make sure the black chip is facing up.
 
 16. Connect the jumper cables as follows:
 
-  ![GPIO to TTL converter connections](https://images-na.ssl-images-amazon.com/images/I/71rqEn-pyBL._AC_SL1287_.jpg "Pin 1 in GPIO to VCC in TTL; pin 6 in GPIO to GND in TTL; pin 8 in GPIO to RX in TTL; and pin 10 in GPIO to TX in TTL.")
+    ![GPIO to TTL converter connections](https://images-na.ssl-images-amazon.com/images/I/71rqEn-pyBL._AC_SL1287_.jpg "Pin 1 in GPIO to VCC in TTL; pin 6 in GPIO to GND in TTL; pin 8 in GPIO to RX in TTL; and pin 10 in GPIO to TX in TTL.")
 
 17. If your old computer has a DB25 serial port, connect the Male to Female DB9 to DB25 Serial Adapter to the RS232 to TTL Converter and to the serial port on your old computer. Otherwise, just connect the RS232 to TTL Converter directly to the serial port on your old computer.
 
