@@ -84,15 +84,15 @@ In order to build the WiFi modem, you will need the following components:
 
 8. Immediately after logging into the Pi Zero W, change the password of the pi user using the following command:
 
-> passwd
+    > passwd
 
 9. On the command line, type the following:
 
->sudo nano /boot/config.txt
+    >sudo nano /boot/config.txt
 
 10. Use the cursor keys to go to the end of the document and add the following line:
 
-> enable_uart=1
+    > enable_uart=1
 
 11. Save the file by pressing Control-O and pressing enter.
 
