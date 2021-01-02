@@ -86,6 +86,7 @@ Before the Web became widely available in the mid 1990s, we used public FTP arch
 10. Enter the following two commands to download and read the 0index file.
 
    > get 0index
+   
    > !cat 0index
 
    The exclamation mark above is important. It tells the FTP client to execute the rest of the command in the Raspberry Pi's command line without having to quit the FTP session.
