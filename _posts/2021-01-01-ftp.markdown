@@ -86,20 +86,20 @@ Before the Web became widely available in the mid 1990s, we used public FTP arch
 10. Enter the following two commands to download and read the 0index file.
 
    > get 0index
-   
+
    > !cat 0index
 
    The exclamation mark above is important. It tells the FTP client to execute the rest of the command in the Raspberry Pi's command line without having to quit the FTP session.
    
    Notice that the file named sb_demo.zip contains the Shiny Bubbles demo that we want to download.
 
-10. Enter the following command to download the sb_demo.zip file.
+11. Enter the following command to download the sb_demo.zip file.
 
     > get sb_demo.zip
 
     You should see a message indicating that the transfer was successful.
 
-11. Enter the following commant to close the FTP session and return to the Raspberry Pi's command line.
+12. Enter the following commant to close the FTP session and return to the Raspberry Pi's command line.
 
     > bye
 
