@@ -33,75 +33,75 @@ In order to install the lrzsz unix communication package on the Raspberry Pi com
 
 Before the Web became widely available in the mid 1990s, we used public FTP archives to download files for our computers. Some of those archives are still available today. In this post, I will show you how to download the Shiny Bubbles demo from the ftp.funet.fi public FTP archive.
 
-1. Using your terminal emulator program on the Atari ST, log into the Raspberry Pi. 
+  1. Using your terminal emulator program on the Atari ST, log into the Raspberry Pi. 
 
-2. Enter the following command into the the Raspberry Pi command line:
+  2. Enter the following command into the the Raspberry Pi command line:
 
-   > ftp ftp.funet.fi
+     > ftp ftp.funet.fi
 
-   This command runs the FTP client on your Raspberry Pi computer and tells it to connect to the ftp.funet.fi public FTP archive. 
+    This command runs the FTP client on your Raspberry Pi computer and tells it to connect to the ftp.funet.fi public FTP archive. 
 
-3. The FTP server will show a welcome message and ask you to enter a user name. Enter *anonymous* 
+  3. The FTP server will show a welcome message and ask you to enter a user name. Enter *anonymous* 
 
-   It is customary to enter *anonymous* as a user name and your email address as a password. However, the ftp.funet.fi server does not require a password.
+     It is customary to enter *anonymous* as a user name and your email address as a password. However, the ftp.funet.fi server does not require a password.
 
-   You should now be connected to the ftp.funet.fi FTP server and should have access to the files in the archive. 
+     You should now be connected to the ftp.funet.fi FTP server and should have access to the files in the archive. 
 
-4. Enter the following FTP command to change to the "pub" directory.
+  4. Enter the following FTP command to change to the "pub" directory.
 
-   > cd pub
+     > cd pub
 
-   You should see something like the following:
+      You should see something like the following:
 
-   > 250 OK. Current directory is /pub
+      > 250 OK. Current directory is /pub
 
-5. Enter the following command to show the contents of the pub directory.
+  5. Enter the following command to show the contents of the pub directory.
 
-   > dir
+     > dir
 
-  You should see many directories for different systems like amiga, atari, mac, msdos, and unix. Each of those directories contains files for the corresponding system.
+      You should see many directories for different systems like amiga, atari, mac, msdos, and unix. Each of those directories contains files for the corresponding system.
 
-6. Enter the following command to change to the "atari" directory.
+  6. Enter the following command to change to the "atari" directory.
 
-   > cd atari
+     > cd atari
 
-7. Enter the following command to see all directories within the pub/atari directory.
+  7. Enter the following command to see all directories within the pub/atari directory.
 
-   > dir
+     > dir
 
-   You should see many directories for different topics, such as arcers, comm, demo, games, gif, sound, and utils.
+      You should see many directories for different topics, such as arcers, comm, demo, games, gif, sound, and utils.
 
-8. Enter the following command to navigate to the demo directory.
+  8. Enter the following command to navigate to the demo directory.
 
-   > cd demo
+      > cd demo
 
-9. Enter the following command to see all the files in the current directory. 
+  9. Enter the following command to see all the files in the current directory. 
 
-   > dir
+      > dir
 
-  The list of all the files in the directory will be shown. Unfortunately, the TOS and MS-DOS style file names are short and not very descriptive. However, there is a solution.
+      The list of all the files in the directory will be shown. Unfortunately, the TOS and MS-DOS style file names are short and not very descriptive. However, there is a solution.
 
-  The first file in the directory, named 0index, contains a list of the contents of the directory with better descriptions. 
+      The first file in the directory, named 0index, contains a list of the contents of the directory with better descriptions. 
 
-10. Enter the following two commands to download and read the 0index file.
+  10. Enter the following two commands to download and read the 0index file.
 
-   > get 0index
+      > get 0index
 
-   > !cat 0index
+      > !cat 0index
 
-   The exclamation mark above is important. It tells the FTP client to execute the rest of the command in the Raspberry Pi's command line without having to quit the FTP session.
+      The exclamation mark above is important. It tells the FTP client to execute the rest of the command in the Raspberry Pi's command line without having to quit the FTP session.
    
-   Notice that the file named sb_demo.zip contains the Shiny Bubbles demo that we want to download.
+      Notice that the file named sb_demo.zip contains the Shiny Bubbles demo that we want to download.
 
-11. Enter the following command to download the sb_demo.zip file.
+  11. Enter the following command to download the sb_demo.zip file.
 
-    > get sb_demo.zip
+      > get sb_demo.zip
 
-    You should see a message indicating that the transfer was successful.
+      You should see a message indicating that the transfer was successful.
 
-12. Enter the following commant to close the FTP session and return to the Raspberry Pi's command line.
+  12. Enter the following commant to close the FTP session and return to the Raspberry Pi's command line.
 
-    > bye
+      > bye
 
 ## Downloading the Shiny Bubbles demo from the Raspberry Pi computer to the Atari ST
 
@@ -109,49 +109,49 @@ The sb_demo.zip file, that contains the Shiny Bubbles demo, has been transferred
 
  *We can also use another protocol, like YMODEM or ZMODEM, but these are not always supported directly by the terminal emulator program on the Atari ST. We will use XMODEM to keep things simple.*
 
-1. Enter the following command to start the transfer of the sb_demo.zip file to the Atari ST using the XMODEM protocol.
+  1. Enter the following command to start the transfer of the sb_demo.zip file to the Atari ST using the XMODEM protocol.
 
- > sx -b sb_demo.zip
+    > sx -b sb_demo.zip
 
- The sx command is now waiting for the Atari ST to start the XMODEM transfer.
+    The sx command is now waiting for the Atari ST to start the XMODEM transfer.
 
-2. Now we need to start the XMODEM transfer on the terminal emulator program on the Atari ST. In the Flash terminal emulator we start the XMODEM transfer by pressing the ALT and B keys simultaneously. 
+  2. Now we need to start the XMODEM transfer on the terminal emulator program on the Atari ST. In the Flash terminal emulator we start the XMODEM transfer by pressing the ALT and B keys simultaneously. 
 
-3. Pressing ALT-B will open a dialog box asking us to choose a location and file name for the file. 
+  3. Pressing ALT-B will open a dialog box asking us to choose a location and file name for the file. 
 
-  ![Download XMODEM Dialog](/assets/img/download_xmodem.jpg)
+    ![Download XMODEM Dialog](/assets/img/download_xmodem.jpg)
 
-  Choose a directory and enter the following in *selection* and click on the OK button:
+    Choose a directory and enter the following in *selection* and click on the OK button:
 
-  > SB_DEMO.ZIP
+    > SB_DEMO.ZIP
 
-  After a few minutes, you should see a message in the terminal emulator program indicating that the transfer was successful. The SB_DEMO.ZIP file is now in your Atari ST. Now we need to unpack the ZIP file. 
+    After a few minutes, you should see a message in the terminal emulator program indicating that the transfer was successful. The SB_DEMO.ZIP file is now in your Atari ST. Now we need to unpack the ZIP file. 
 
 ## Unpacking the ZIP file
 
-1. Close the terminal emulator program. You can close Flash by pressing ALT-X.
+  1. Close the terminal emulator program. You can close Flash by pressing ALT-X.
 
-2. Locate the ZIP unpacking utility in the GEM desktop and run it. I used STZip.
+  2. Locate the ZIP unpacking utility in the GEM desktop and run it. I used STZip.
 
-   ![STZip 1](/assets/img/stzip_1.jpg) 
+     ![STZip 1](/assets/img/stzip_1.jpg) 
 
-3. Select the file to unpack and click on the OK button.
+  3. Select the file to unpack and click on the OK button.
 
-   ![STZip 2](/assets/img/stzip_2.jpg) 
+     ![STZip 2](/assets/img/stzip_2.jpg) 
 
-4. Choose a destination folder and click on the Extract Files button.
+  4. Choose a destination folder and click on the Extract Files button.
 
-   ![STZip 3](/assets/img/stzip_3.jpg) 
+     ![STZip 3](/assets/img/stzip_3.jpg) 
 
-5. After the unpacking utility finishes the extraction, close the utility. The extracted files should appear in the destination folder.
+  5. After the unpacking utility finishes the extraction, close the utility. The extracted files should appear in the destination folder.
 
-   ![SB_DEMO Folder](/assets/img/sb_demo_folder.jpg) 
+     ![SB_DEMO Folder](/assets/img/sb_demo_folder.jpg) 
 
 ## Running the Shiny Bubbles demo
 
 Double-click on the SB.PRG file on the destination folder and the Shiny Bubbles demo should run.
 
-![SB_DEMO](/assets/img/sb_demo.jpg) 
+  ![SB_DEMO](/assets/img/sb_demo.jpg) 
 
 ## Conclusion
 
