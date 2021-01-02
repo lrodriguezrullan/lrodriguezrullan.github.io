@@ -24,6 +24,7 @@ linkedin_username: lrodriguezrullan
 description: >- # this means to ignore newlines until "baseurl:"
    I am a software engineer based in Denver, Colorado. I develop enterprise applications using the Google Cloud Platform, Java, and Angular.
 show_excerpts: false
+google_analytics: UA-175449567-1
 
 # Build settings
 markdown: kramdown
