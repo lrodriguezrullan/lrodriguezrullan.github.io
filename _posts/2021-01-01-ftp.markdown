@@ -39,7 +39,7 @@ Before the Web became widely available in the mid 1990s, we used public FTP arch
 
    > ftp ftp.funet.fi
 
-    This command runs the FTP client on your Raspberry Pi computer and tells it to connect to the ftp.funet.fi public FTP archive. 
+   This command runs the FTP client on your Raspberry Pi computer and tells it to connect to the ftp.funet.fi public FTP archive. 
 
 3. The FTP server will show a welcome message and ask you to enter a user name. Enter *anonymous* 
 
