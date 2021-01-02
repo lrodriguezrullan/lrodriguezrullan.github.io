@@ -1,0 +1,157 @@
+---
+layout: post
+title:  "How to use FTP and XMODEM to download files to an old Atari ST"
+date:   2021-01-01 17:20:00 -0600
+categories: raspberry-pi atari-st retrocomputing 
+---
+
+![Atari 1040 ST terminal FTP](/assets/img/ftp_1.jpg)
+
+## Introduction
+
+In this post, I describe how to download a file from the Internet to an old Atari 1040 ST using FTP and XMODEM. I am using a Raspberry Pi Zero W computer as a WiFi modem and shell account server, as described in [my previous post.](https://www.rodriguezrullan.com/raspberry-pi/atari-st/retrocomputing/2020/08/12/wifi-modem.html) 
+
+## Software Prerequisites
+
+In order to connect to the Raspberry Pi computer from the Atari ST, we need a terminal emulator program for the Atari ST.  I use [Flash from Antic](https://sites.google.com/site/stessential/communications), although any terminal emulator that supports XMODEM will work.
+
+We also need a tool that allows us to unpack ZIP files. I am using [STZip](https://sites.google.com/site/stessential/archiver-tools).
+
+We also need to install some software on the Raspberry Pi computer. First, we need to install a File Transfer Protocol (FTP) client. We will use the FTP client to download files from FTP servers on the Internet to the Raspberry Pi computer.
+
+In order to install the FTP client on the Raspberry Pi computer, enter the following command on the Raspberry Pi command line:
+
+> sudo apt install ftp
+
+The FTP client on the Raspberry Pi computer does not have access to the Atari ST. In order to transfer the files from the Raspberry Pi computer to the Atari ST, we will use the lrzsz unix communication package that supports the XMODEM, YMODEM, and ZMODEM file transfer protocols. 
+
+In order to install the lrzsz unix communication package on the Raspberry Pi computer, enter the following command on the Raspberry Pi command line:
+
+> sudo apt install lrzsz
+
+## Connecting to a public FTP archive and downloading the Shiny Bubbles demo
+
+Before the Web became widely available in the mid 1990s, we used public FTP archives to download files for our computers. Some of those archives are still available today. In this post, I will show you how to download the Shiny Bubbles demo from the ftp.funet.fi public FTP archive.
+
+1. Using your terminal emulator program on the Atari ST, log into the Raspberry Pi. 
+
+2. Enter the following command into the the Raspberry Pi command line:
+
+   > ftp ftp.funet.fi
+
+   This command runs the FTP client on your Raspberry Pi computer and tells it to connect to the ftp.funet.fi public FTP archive. 
+
+3. The FTP server will show a welcome message and ask you to enter a user name. Enter *anonymous* 
+
+   It is customary to enter *anonymous* as a user name and your email address as a password. However, the ftp.funet.fi server does not require a password.
+
+   You should now be connected to the ftp.funet.fi FTP server and should have access to the files in the archive. 
+
+4. Enter the following FTP command to change to the "pub" directory.
+
+   > cd pub
+
+   You should see something like the following:
+
+   > 250 OK. Current directory is /pub
+
+5. Enter the following command to show the contents of the pub directory.
+
+   > dir
+
+  You should see many directories for different systems like amiga, atari, mac, msdos, and unix. Each of those directories contains files for the corresponding system.
+
+6. Enter the following command to change to the "atari" directory.
+
+   > cd atari
+
+7. Enter the following command to see all directories within the pub/atari directory.
+
+   > dir
+
+   You should see many directories for different topics, such as arcers, comm, demo, games, gif, sound, and utils.
+
+8. Enter the following command to navigate to the demo directory.
+
+   > cd demo
+
+9. Enter the following command to see all the files in the current directory. 
+
+   > dir
+
+  The list of all the files in the directory will be shown. Unfortunately, the TOS and MS-DOS style file names are short and not very descriptive. However, there is a solution.
+
+  The first file in the directory, named 0index, contains a list of the contents of the directory with better descriptions. 
+
+10. Enter the following two commands to download and read the 0index file.
+
+   > get 0index
+   > !cat 0index
+
+   The exclamation mark above is important. It tells the FTP client to execute the rest of the command in the Raspberry Pi's command line without having to quit the FTP session.
+   
+   Notice that the file named sb_demo.zip contains the Shiny Bubbles demo that we want to download.
+
+10. Enter the following command to download the sb_demo.zip file.
+
+    > get sb_demo.zip
+
+    You should see a message indicating that the transfer was successful.
+
+11. Enter the following commant to close the FTP session and return to the Raspberry Pi's command line.
+
+    > bye
+
+## Downloading the Shiny Bubbles demo from the Raspberry Pi computer to the Atari ST
+
+The sb_demo.zip file, that contains the Shiny Bubbles demo, has been transferred from the ftp.funet.fi public FTP archive to the current directory of the Raspberry Pi computer. Now we need to transfer it to the Atari ST. We will use XMODEM for that. 
+
+ *We can also use another protocol, like YMODEM or ZMODEM, but these are not always supported directly by the terminal emulator program on the Atari ST. We will use XMODEM to keep things simple.*
+
+1. Enter the following command to start the transfer of the sb_demo.zip file to the Atari ST using the XMODEM protocol.
+
+ > sx -b sb_demo.zip
+
+ The sx command is now waiting for the Atari ST to start the XMODEM transfer.
+
+2. Now we need to start the XMODEM transfer on the terminal emulator program on the Atari ST. In the Flash terminal emulator we start the XMODEM transfer by pressing the ALT and B keys simultaneously. 
+
+3. Pressing ALT-B will open a dialog box asking us to choose a location and file name for the file. 
+
+  ![Download XMODEM Dialog](/assets/img/download_xmodem.jpg)
+
+  Choose a directory and enter the following in *selection* and click on the OK button:
+
+  > SB_DEMO.ZIP
+
+  After a few minutes, you should see a message in the terminal emulator program indicating that the transfer was successful. The SB_DEMO.ZIP file is now in your Atari ST. Now we need to unpack the ZIP file. 
+
+## Unpacking the ZIP file
+
+1. Close the terminal emulator program. You can close Flash by pressing ALT-X.
+
+2. Locate the ZIP unpacking utility in the GEM desktop and run it. I used STZip.
+
+   ![STZip 1](/assets/img/stzip_1.jpg) 
+
+3. Select the file to unpack and click on the OK button.
+
+   ![STZip 2](/assets/img/stzip_2.jpg) 
+
+4. Choose a destination folder and click on the Extract Files button.
+
+   ![STZip 3](/assets/img/stzip_3.jpg) 
+
+5. After the unpacking utility finishes the extraction, close the utility. The extracted files should appear in the destination folder.
+
+   ![SB_DEMO Folder](/assets/img/sb_demo_folder.jpg) 
+
+## Running the Shiny Bubbles demo
+
+Double-click on the SB.PRG file on the destination folder and the Shiny Bubbles demo should run.
+
+![SB_DEMO](/assets/img/sb_demo.jpg) 
+
+## Conclusion
+
+In this post I showed you how to download a file from a public FTP archive to a shell server using FTP, how to transfer the file from the shell server to an old Atari 1040 ST using XMODEM, and how to use an unpacking utility to extract the archived file. 
