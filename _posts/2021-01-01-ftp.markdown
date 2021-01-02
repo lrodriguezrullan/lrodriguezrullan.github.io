@@ -111,21 +111,21 @@ The sb_demo.zip file, that contains the Shiny Bubbles demo, has been transferred
 
   1. Enter the following command to start the transfer of the sb_demo.zip file to the Atari ST using the XMODEM protocol.
 
-    > sx -b sb_demo.zip
+     > sx -b sb_demo.zip
 
-    The sx command is now waiting for the Atari ST to start the XMODEM transfer.
+     The sx command is now waiting for the Atari ST to start the XMODEM transfer.
 
   2. Now we need to start the XMODEM transfer on the terminal emulator program on the Atari ST. In the Flash terminal emulator we start the XMODEM transfer by pressing the ALT and B keys simultaneously. 
 
   3. Pressing ALT-B will open a dialog box asking us to choose a location and file name for the file. 
 
-    ![Download XMODEM Dialog](/assets/img/download_xmodem.jpg)
+     ![Download XMODEM Dialog](/assets/img/download_xmodem.jpg)
 
-    Choose a directory and enter the following in *selection* and click on the OK button:
+     Choose a directory and enter the following in *selection* and click on the OK button:
 
-    > SB_DEMO.ZIP
+     > SB_DEMO.ZIP
 
-    After a few minutes, you should see a message in the terminal emulator program indicating that the transfer was successful. The SB_DEMO.ZIP file is now in your Atari ST. Now we need to unpack the ZIP file. 
+     After a few minutes, you should see a message in the terminal emulator program indicating that the transfer was successful. The SB_DEMO.ZIP file is now in your Atari ST. Now we need to unpack the ZIP file. 
 
 ## Unpacking the ZIP file
 
