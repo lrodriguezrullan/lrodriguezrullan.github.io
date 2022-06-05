@@ -5,7 +5,7 @@ permalink: /about/
 ---
 <style type="text/css"> .photo { border-radius: 50%; float: right; filter: grayscale(100%); margin-left: 30px; margin-top: 0} .photo:hover { filter: grayscale(0); } </style>
 ![image]({{ site.baseurl }}/assets/img/my_photo_sq.jpg){: .photo}
-I am Software Engineer at [Resultant](http://resultant.com), an Indianapolis-based consulting firm focused on technology, data analytics, digital transformation, application development, and financial services.  I develop enterprise applications using the Google Cloud Platform, Java, Python, and Angular. I have worked in the software development and system administration fields since 1989. I live outside Denver, Colorado, with my wife and two children. 
+I am software engineer at [Resultant](http://resultant.com), an Indianapolis-based consulting firm focused on technology, data analytics, digital transformation, application development, and financial services.  I develop enterprise applications using the Google Cloud Platform, Java, Python, and Angular. I have worked in the software development and system administration fields since 1989. I live outside Denver, Colorado, with my wife and two children. 
 
 ## Experience
 
