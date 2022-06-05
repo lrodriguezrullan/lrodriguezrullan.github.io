@@ -19,15 +19,15 @@ In reverse chronological order:
 |---------|----------|-------|--------------|-------|
 | Independent Contractor / Line of Sight, Inc. | Consulting (Telephony) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, Oracle PL/SQL, Spring, Hibernate, and jQuery |
 |---------|----------|-------|--------------|-------|
-| [Softek, Inc.](https://softekpr.com/en/new-home-en/) | Consulting (Telephony and State Government) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, and Oracle PL/SQL | 
+| [Softek](https://softekpr.com/en/new-home-en/) | Consulting (Telephony and State Government) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, and Oracle PL/SQL | 
 |---------|----------|-------|--------------|-------|
 | T-30 | IT Consulting | Principal | 1 year | Web Development | 
 |---------|----------|-------|--------------|-------|
 | [Office of Management and Budget of the Government of Puerto Rico](http://www.ogp.pr.gov) | State Government | Programming and Communication Systems Consultant / Information Systems Operations Manager | 3.5 years | Lotus Domino, Network Security, Wide-Area Networks |
 |---------|----------|-------|--------------|-------|
-| [Spectron](http://www.spectron-msim.com)|Oil Analysis / Mechanical Maintenance|Programmer (Full-Time)|6 years|Borland C/C++, Delphi, Watcom SQL, and MS SQL Server |
+| [Spectron International](http://www.spectron-msim.com)|Oil Analysis / Mechanical Maintenance|Programmer (Full-Time)|6 years|Borland C/C++, Delphi, Watcom SQL, and MS SQL Server |
 |---------|----------|-------|--------------|-------|
-| [Spectron](http://www.spectron-msim.com)|Oil Analysis / Mechanical Maintenance|Programmer (Part-Time)|4 years|[Rocky Mountain BASIC on HP 9000 Series 200/300 computers](http://hpmemoryproject.org/technics/bench/3048/config_soft_01.htm) |
+| [Spectron International](http://www.spectron-msim.com)|Oil Analysis / Mechanical Maintenance|Programmer (Part-Time)|4 years|[Rocky Mountain BASIC on HP 9000 Series 200/300 computers](http://hpmemoryproject.org/technics/bench/3048/config_soft_01.htm) |
 |---------|----------|-------|--------------|-------|
 
 ## Education
