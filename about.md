@@ -5,7 +5,7 @@ permalink: /about/
 ---
 <style type="text/css"> .photo { border-radius: 50%; float: right; filter: grayscale(100%); margin-left: 30px; margin-top: 0} .photo:hover { filter: grayscale(0); } </style>
 ![image]({{ site.baseurl }}/assets/img/my_photo_sq.jpg){: .photo}
-I am a Senior Software Engineer and Application Development Manager at [Tempus Nova LLC](http://tempusnova.com), a Google Cloud Premier Partner based in Denver, Colorado. I develop enterprise applications using the Google Cloud Platform, Java, and Angular. I have worked in the software development and system administration fields since 1989. I live outside Denver, Colorado, with my wife and two children. 
+I am Software Engineer at [Resultant](http://resultant.com), an Indianapolis-based consulting firm focused on technology, data analytics, digital transformation, application development, and finantial services.  I develop enterprise applications using the Google Cloud Platform, Java, Python, and Angular. I have worked in the software development and system administration fields since 1989. I live outside Denver, Colorado, with my wife and two children. 
 
 ## Experience
 
@@ -13,9 +13,9 @@ In reverse chronological order:
 
 | Organization | Industry | Title | Time | Technologies |
 |---------|----------|-------|--------------|-------|
-| [Tempus Nova, LLC](https://tempusnova.com) | Consulting | Application Development Manager | 7 months | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino |
+| [Resultant (formerly Tempus Nova)](https://resultant.com) | Consulting | Google Cloud Development Team Lead | 17 months | Google Cloud Platform (GCP), Java, Angular, Python, Go, Cloud Build, Terraform |
 |---------|----------|-------|--------------|-------|
-| [Tempus Nova, LLC](https://tempusnova.com) | Consulting | Senior Software Engineer | 6 years | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino |
+| [Resultant (formerly Tempus Nova)](https://resultant.com) | Consulting | Senior Software Engineer | 6 years | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino |
 |---------|----------|-------|--------------|-------|
 | Independent Contractor / Line of Sight, Inc. | Consulting (Telephony) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, Oracle PL/SQL, Spring, Hibernate, and jQuery |
 |---------|----------|-------|--------------|-------|
@@ -33,11 +33,10 @@ In reverse chronological order:
 ## Education
 
 * Bachelor Degree in Computer Science from the [University of Puerto Rico, Bayamón Campus](https://www.uprb.edu).
-* Juris Doctor from the [University of Puerto Rico, School of Law](http://derecho.uprrp.edu). I focused on topics related to entrepreneurship, participating in the Cyber Law Section of the Legal Aid Clinic and taking courses in Digital Music, Technology Law, and Partnerships and Corporations Law. 
 * Additional 25 undergraduate and 9 graduate credits in Applied Mathematics and Data Structures at the [University of Puerto Rico, College of Natural Sciences](https://math.uprrp.edu).
+* Juris Doctor from the [University of Puerto Rico, School of Law](http://derecho.uprrp.edu). I focused on topics related to entrepreneurship, participating in the Cyber Law Section of the Legal Aid Clinic and taking courses in Digital Music, Technology Law, and Partnerships and Corporations Law. 
 
 ## Certifications
 
-* Google Certified Professional - Cloud Architect
-* IBM Certified Application Developer – Lotus Notes and Domino 6/6.5
-* IBM Certified Lotus Professional Domino R5 Application Developer
+* Google Certified Professional - Cloud Architect (Issued November 2017, expires November 2023)
+
