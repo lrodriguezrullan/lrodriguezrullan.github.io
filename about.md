@@ -17,7 +17,7 @@ In reverse chronological order:
 |---------|----------|-------|--------------|-------|
 | [Resultant (formerly Tempus Nova)](https://resultant.com) | Consulting | Senior Software Engineer | 6 years | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino |
 |---------|----------|-------|--------------|-------|
-| Independent Contractor / Line of Sight, Inc. | Consulting (Telephony) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, Oracle PL/SQL, Spring, Hibernate, and jQuery |
+| Independent Contractor / Line of Sight | Consulting (Telephony) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, Oracle PL/SQL, Spring, Hibernate, and jQuery |
 |---------|----------|-------|--------------|-------|
 | [Softek](https://softekpr.com/en/new-home-en/) | Consulting (Telephony and State Government) | Senior Systems Analyst | 5 years | Lotus Domino, Java, JDBC, and Oracle PL/SQL | 
 |---------|----------|-------|--------------|-------|
