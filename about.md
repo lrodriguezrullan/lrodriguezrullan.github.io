@@ -13,7 +13,7 @@ In reverse chronological order:
 
 | Organization | Industry | Title | Time | Technologies |
 |---------|----------|-------|--------------|-------|
-| [Resultant (formerly Tempus Nova)](https://resultant.com) | Consulting | Google Cloud Development Team Lead | 17 months | Google Cloud Platform (GCP), Java, Angular, Python, Go, Cloud Build, Terraform |
+| [Resultant (formerly Tempus Nova)](https://resultant.com) | Consulting | Google Cloud Development Team Lead | 3.5 years | Google Cloud Platform (GCP), Java, Angular, Python, Go, Cloud Build, Terraform |
 |---------|----------|-------|--------------|-------|
 | [Resultant (formerly Tempus Nova)](https://resultant.com) | Consulting | Senior Software Engineer | 6 years | Google Cloud Platform (GCP), Java, Angular, Python, Go, and Lotus Domino |
 |---------|----------|-------|--------------|-------|
