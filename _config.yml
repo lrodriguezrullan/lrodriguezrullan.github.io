@@ -20,7 +20,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://lrodriguezrullan.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  lrodriguezrullan
 linkedin_username: lrodriguezrullan
-bluesky_username: lrodriguezrullan
+bluesky_username: luis.rodriguezrullan.com
 description: >- # this means to ignore newlines until "baseurl:"
    I am a software engineer based in Denver, Colorado. I develop enterprise applications using the Google Cloud Platform, Java, and Angular.
 show_excerpts: false
